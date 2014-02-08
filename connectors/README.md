@@ -35,3 +35,7 @@ To make it water proof
 Part ID [845060062](http://www.molex.com/molex/products/datasheet.jsp?part=active/0845060062_ACCESSORIES.xml)
 [Datasheet](http://www.molex.com/elqNow/elqRedir.htm?ref=http://www.molex.com/webdocs/datasheets/pdf/en-us/0845060062_ACCESSORIES.pdf)
 [Drawing](http://www.molex.com/elqNow/elqRedir.htm?ref=http://www.molex.com/pdm_docs/sd/845060062_sd.pdf)
+
+## Backshell for Plug and receptable
+You should use one for the plug to keep the wiring tidy.
+Part ID [](http://www.molex.com/molex/products/datasheet.jsp?part=active/0845370003_ACCESSORIES.xml)
