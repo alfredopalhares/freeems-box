@@ -16,6 +16,10 @@ color("Darkgreen") {
       translate([0, 0,  THICKNESS]) {
         cube(size = [(LENGTH - THICKNESS),  WIDTH - THICKNESS, HEIGHT + 1], center=true);
       }
+      // Jaguar slice to fit one side of the board
+      translate([0,76.2/2 - (THICKNESS - 2) , 0]) {
+        jaguar();
+      }
     }
 }
 // Mounting device for the Jaguar
