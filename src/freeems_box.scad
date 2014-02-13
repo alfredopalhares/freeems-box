@@ -43,7 +43,7 @@ if (ASSEMBLY == true) {
 
   translate([200, -230, 90]) {
     color("Grey") {
-      import("molex_receptor.stl");
+      import("../connectors/receptor_084506001/molex_receptor.stl");
     }
   }
 }
