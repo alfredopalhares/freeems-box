@@ -21,6 +21,16 @@ color("Darkgreen") {
         jaguar();
       }
     }
+    // Inner mounting device for the jaguar
+    difference() {
+      translate([0, -5, -HEIGHT/4]) {
+        cube(size = [127 + 20, 10, HEIGHT/2], center = true);
+      }
+      // Jaguar slice to fit the center side of the board
+      translate([0,76.2/2 - (THICKNESS - 2) , 0]) {
+        jaguar();
+      }
+    }
 }
 // Mounting device for the Jaguar
 jaguar();
