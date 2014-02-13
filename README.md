@@ -16,7 +16,9 @@ The License is [MIT](http://opensource.org/licenses/MIT) with a flavour of beerw
 this you *must* pay me a beer or you shall be cursed by the Gods of Speed :)
 
 
-Authors
--------
+Authors and Copyright
+---------------------
 
 - Alfredo Palhares (masterkorp@masterkorp.net) and masterkorp on irc.freenode.org
+
+The molex connectors data sheets and all the related informations is copyright of Molex, Inc.
