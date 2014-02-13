@@ -4,6 +4,9 @@ include <BOLTS/BOLTS.scad>;
 
 // Units are milimeters
 
+//Assembly mode
+ASSEMBLY=false;
+
 //GLOBALS
 HEIGHT=50; // Z
 WIDTH=150; // Y
@@ -32,5 +35,15 @@ color("Darkgreen") {
       }
     }
 }
-// Mounting device for the Jaguar
-jaguar();
+
+if (ASSEMBLY == true) {
+  translate([0,76.2/2 - (THICKNESS - 2) , 0]) {
+    jaguar();
+  }
+
+  translate([200, -230, 90]) {
+    color("Grey") {
+      import("molex_receptor.stl");
+    }
+  }
+}
