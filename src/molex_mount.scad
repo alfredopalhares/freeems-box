@@ -25,3 +25,19 @@ module molex_mount() {
     }
   }
 } 
+
+/* The reprentation of the molex recptor
+ * Frecad generares the stl according to the angle you create the
+ * So the mesh needs to be rotate and translated to a suitable place
+ * This goes to the first hole
+ */
+module molex_receptor() {
+  rotate([0, 0, 270]) {
+    // Points to the left molex hole.
+    translate([30, -500, 0]) {
+      color("Grey") {
+        import("../connectors/receptor_084506001/molex_receptor.stl");
+      }
+    }
+  }
+}
