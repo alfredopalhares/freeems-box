@@ -28,16 +28,7 @@ difference() {
   }
   
   // Molex mounting 
-  color("Red") {
-  // Space that the molex should take inside the case
-    translate([0, -(WIDTH/2 - molex_non_thread_size + 1), 0]) {
-      rotate([90, 0, 0]) {
-      linear_extrude(molex_non_thread_size) {
-        molex_mount();
-        }
-      }
-    }
-  }
+  molex_mount();
 }
 // Inner mounting device for the jaguar
 difference() {
