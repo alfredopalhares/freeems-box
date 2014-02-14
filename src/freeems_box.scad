@@ -26,9 +26,11 @@ difference() {
   translate([0,76.2/2 - (THICKNESS - 2) , 0]) {
     jaguar();
   }
-  
-  // Molex mounting 
-  molex_mount();
+
+  // Molex mounting
+  translate([0, -(WIDTH/2 - molex_non_thread_size + 1), 0]) {
+    molex_mount();
+  }
 }
 // Inner mounting device for the jaguar
 difference() {
