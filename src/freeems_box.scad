@@ -9,7 +9,7 @@ include <molex_mount.scad>;
 ASSEMBLY=false;
 
 //GLOBALS
-HEIGHT=50; // Z
+HEIGHT=60; // Z
 WIDTH=150; // Y
 LENGTH=200; // X
 THICKNESS=5;
