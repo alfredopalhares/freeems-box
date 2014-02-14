@@ -28,6 +28,11 @@ difference() {
   }
 
   // Molex mounting
+  translate([-(LENGTH/3),0, 0] ){
+    translate([0, -(WIDTH/2 - molex_non_thread_size + 1), 0]) {
+      molex_mount();
+    }
+  }
   translate([0, -(WIDTH/2 - molex_non_thread_size + 1), 0]) {
     molex_mount();
   }
