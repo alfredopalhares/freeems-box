@@ -42,6 +42,7 @@ difference() {
     }
   }
 }
+
 // Inner mounting device for the jaguar
 difference() {
   translate([0, -5, -HEIGHT/4]) {
@@ -59,10 +60,11 @@ if (ASSEMBLY == true) {
   translate([0,76.2/2 - (THICKNESS - 2) , 0]) {
     jaguar();
   }
-
-  translate([200, -230, 90]) {
-    color("Grey") {
-      import("../connectors/receptor_084506001/molex_receptor.stl");
-    }
+  molex_receptor();
+  translate([LENGTH/3, 0, 0]) {
+    molex_receptor();
+  }
+  translate([LENGTH * (2/3), 0, 0]) {
+    molex_receptor();
   }
 }
