@@ -20,7 +20,7 @@ module molex_mount() {
   // Space that the molex should take inside the case
     rotate([90, 0, 0]) {
       linear_extrude(molex_non_thread_size) {
-        molex_mount();
+        molex_diagram();
       }
     }
   }
