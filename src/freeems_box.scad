@@ -42,6 +42,13 @@ difference() {
       molex_mount();
     }
   }
+
+  // Usb mounting
+  translate([-(LENGTH/2 + 1),0,0]) {
+    rotate([0,90, 90]) {
+      usb_mount();
+    }
+  }
 }
 
 // Inner mounting device for the jaguar
