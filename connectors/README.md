@@ -39,3 +39,13 @@ Part ID [845060062](http://www.molex.com/molex/products/datasheet.jsp?part=activ
 ## Backshell for Plug and receptable
 You should use one for the plug to keep the wiring tidy.
 Part ID [84537-0003](http://www.molex.com/molex/products/datasheet.jsp?part=active/0845370003_ACCESSORIES.xml)
+
+
+## USb waterproof connector
+The part is from USBfirewire
+Part ID: [RR-111200-10](http://www.usbfirewire.com/Parts/rr-111200-10.html)
+It the includes the hex nut and the seal gasket on the kit.
+
+## Dust cover for the usb
+The IP67 rated rap
+Part ID: [RR-1C542122](http://www.usbfirewire.com/Parts/rr-1c542122.html)

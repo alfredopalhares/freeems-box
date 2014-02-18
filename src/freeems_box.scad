@@ -1,6 +1,7 @@
 include <jaguar.scad>;
 include <BOLTS/BOLTS.scad>;
 include <molex_mount.scad>;
+include <usb_mount.scad>;
 
 
 // Units are milimeters
@@ -41,6 +42,13 @@ difference() {
       molex_mount();
     }
   }
+
+  // Usb mounting
+  translate([-(LENGTH/2 + 1),0,0]) {
+    rotate([0,90, 90]) {
+      usb_mount();
+    }
+  }
 }
 
 // Inner mounting device for the jaguar
@@ -66,5 +74,14 @@ if (ASSEMBLY == true) {
   }
   translate([LENGTH * (2/3), 0, 0]) {
     molex_receptor();
+  }
+  translate([-(LENGTH/2 - 5), 0, 0]) {
+    rotate([-90,0,90]) {
+      usb_receptor();
+      translate([0,0,2]) {
+        usb_gasket();
+      }
+      usb_hex_nut();
+    }
   }
 }
