@@ -75,4 +75,13 @@ if (ASSEMBLY == true) {
   translate([LENGTH * (2/3), 0, 0]) {
     molex_receptor();
   }
+  translate([-(LENGTH/2 - 5), 0, 0]) {
+    rotate([-90,0,90]) {
+      usb_receptor();
+      translate([0,0,2]) {
+        usb_gasket();
+      }
+      usb_hex_nut();
+    }
+  }
 }
